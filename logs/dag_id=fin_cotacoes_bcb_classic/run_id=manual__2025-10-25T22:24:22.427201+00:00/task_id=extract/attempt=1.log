@@ -1,0 +1,11 @@
+{"timestamp":"2025-10-25T22:24:23.775041Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-25T22:24:23.775633Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/cotacoes.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-25T22:24:23.814394Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:24:23.814559Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:24:23.814657Z","level":"info","event":"Current task name:extract","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:24:23.814693Z","level":"info","event":"Dag name:fin_cotacoes_bcb_classic","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:24:23.816228Z","level":"warning","event":"https://www4.bcb.gov.br/Download/fechamento/20251025.csv","logger":"root","filename":"cotacoes.py","lineno":34}
+{"timestamp":"2025-10-25T22:24:24.155414Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-25T22:24:24.173861Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:24:24.174023Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:24:24.174920Z","level":"info","event":"Task operator:<Task(PythonOperator): extract>","logger":"task.stdout"}

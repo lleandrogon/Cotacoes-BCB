@@ -1,0 +1,11 @@
+{"timestamp":"2025-10-25T22:40:06.458963Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-25T22:40:06.459484Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/cotacoes.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-25T22:40:06.495529Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:40:06.495679Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:40:06.495725Z","level":"info","event":"Current task name:load","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:40:06.495751Z","level":"info","event":"Dag name:fin_cotacoes_bcb_classic","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:40:06.537906Z","level":"info","event":"Done loading. Loaded a total of 0 rows into cotacoes","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook","filename":"sql.py","lineno":963}
+{"timestamp":"2025-10-25T22:40:06.538582Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-25T22:40:06.551027Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:40:06.551165Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-25T22:40:06.551307Z","level":"info","event":"Task operator:<Task(PythonOperator): load>","logger":"task.stdout"}
